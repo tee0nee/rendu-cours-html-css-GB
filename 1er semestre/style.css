@@ -6,29 +6,68 @@
 
 body {
   font-family: "Bokor";
-  display: flex;
-  justify-content: center; /* pour centrer horizontalement */
-  align-items: flex-start; /* aligne en haut */
+  background-color: #adbfbd;
 }
 
 .introtext {
   font-size: 70px;
-  color: rgb(104, 11, 11);
+  color: #680b0b;
   text-align: center;
   text-shadow: 2px 2px #000;
-  white-space: nowrap;
+  white-space: nowrap; /* tout le texte sur la meme ligne */
+}
+
+.suite {
+  font-size: 55px;
+  color: #680b0b;
+}
+
+.pavés {
+  font-family: "bokor-regular";
+  font-size: 30px;
+  color: #0f1a33;
 }
 
 .division1 {
-  display: flex;
+  display: flex; /* met cote à cote les elements */
   width: 300px;
   height: 300px;
   margin-top: 50px;
+  margin: 50px auto;
   padding: 3px;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
+
+.division2 {
+  width: 1500px;
+  height: 600px;
+  margin-top: 200px;
+  padding: 3px;
+  gap: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.division3 {
+  width: 700px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 3px;
+  gap: 5px;
+}
+
+.division4 {
+  width: 600px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 900px;
+  padding: 3px;
+  gap: 5px;
+  display: flex;
+}
+
 
 .img {
   height: 100%;
@@ -36,4 +75,12 @@ body {
   object-fit: contain;
 }
 
+.petiteimg {
+  width: 1500px;
+  height: auto;
+}
 
+.trespetiteimg {
+  width: 300px;
+  height: auto;
+}
