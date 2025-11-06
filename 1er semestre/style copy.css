@@ -1,0 +1,74 @@
+
+
+* {
+  margin: 0;
+  padding: 1%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bokor";
+}
+.introtext {
+  font-size: 70px;
+  color: rgb(104, 11, 11);
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+.suite {
+  font-size: 70px;
+  color: aqua;
+}
+
+.te:hover {
+  font-size: 70px;
+  color: rgb(22, 7, 63);
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+.suite:hover {
+  font-size: 45px;
+  color: rgb(48, 214, 33);
+}
+
+.division1 {
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+  padding: 3px;
+}
+
+.division2 {
+  width: 40%;
+  height: 300px;
+  margin: 2px;
+  padding: 0px;
+  background-color: rgb(255, 196, 0);
+  border: 2px solid #000;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.presentation-contenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bloc-1 {
+  height: 100px;
+  width: 50%;
+  background-color: rgb(115, 252, 252);
+}
+.bloc-2 {
+  height: 150px;
+    width: 50%;
+      background-color: rgb(252, 144, 228);
+}
+.bloc-3 {
+  height: 75px;
+    width: 100%;
+      background-color: rgb(255, 253, 164);
+}
